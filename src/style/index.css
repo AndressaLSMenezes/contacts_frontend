@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body,
+  div,
+  span,
+  label,
+  h1,
+  h2,
+  h3,
+  h4,
+  p,
+  img,
+  ul,
+  li,
+  figure,
+  header,
+  main,
+  footer,
+  header,
+  nav,
+  section,
+  button,
+  input,
+  select,
+  option {
+    @apply m-0 p-0 border-0 align-baseline box-border;
+  }
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply leading-none;
+  }
+
+  ol,
+  ul {
+    @apply list-none;
+  }
+
+  #root {
+    @apply w-screen h-screen col-center relative;
+  }
+
+  button a {
+    @apply cursor-pointer rounded-lg;
+  }
+
+  input {
+    @apply w-full h-9 focus:outline-0 pr-px pl-1 placeholder:text-gray-600 focus:placeholder:text-gray-200 rounded-lg focus:border-none;
+  }
+
+  :target {
+    @apply scroll-mt-24;
+  }
+}
+
+@layer components {
+  .col-center {
+    @apply flex flex-col items-center justify-center;
+  }
+
+  .row-center {
+    @apply flex items-center justify-center;
+  }
+}
