@@ -1,7 +1,7 @@
-import { HomePage } from "./pages/homePage";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "./style/index.css";
+import RoutesMain from "./routes";
 
 const App = () => {
   return (
@@ -18,7 +18,7 @@ const App = () => {
         pauseOnHover
         theme="dark"
       />
-      <HomePage />
+      <RoutesMain />
     </>
   );
 };
