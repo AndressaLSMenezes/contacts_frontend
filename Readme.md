@@ -1,40 +1,28 @@
-# Contacts
+# Front-end do projeto Contacts
 
-## :memo: Descrição
-
-Projeto 
-<!-- 
-## :books: Funcionalidades -->
-
-## <h3>:wrench: Tecnologias utilizadas</h3>
+Este repositório contém o front-end do projeto Contacts, que utiliza as seguintes tecnologias:
 
 - Vite
 - React
 - TypeScript
-- Tailwind Css
-- Context Api
+- Tailwind CSS
+- Context API
 - Yup
-- Local storage
+- Local Storage
 - React Hook Form
 - React Toastify
 - React Icons
 - React Router-dom
 
+O objetivo deste projeto é fornecer uma interface intuitiva e fácil de usar para a gestão de clientes e seus contatos, utilizando uma abordagem moderna de desenvolvimento web.
 
-## :rocket: Rodando o projeto
+O projeto foi desenvolvido utilizando uma abordagem modular, com componentes React reutilizáveis e um gerenciamento de estado centralizado utilizando a Context API. As validações de formulário são feitas com a biblioteca Yup e os dados são armazenados localmente utilizando o Local Storage do navegador.
 
-Para rodar o repositório é necessário clonar o mesmo, dar os seguintes comandos para iniciar o projeto:
+## Instalação
+Para utilizar o projeto localmente, é necessário clonar o repositório e instalar as dependências com o comando [yarn]. Em seguida, basta rodar o servidor local com [yarn dev].
 
-```
-
-- Instale as dependências
-yarn
-
-- Inicialize o projeto
-yarn dev
-
-```
 
 ## Hospedagem:
 
-<a href="https://vercel.com/andressalsmenezes/contacts-frontend-2/">Clique aqui</a>
+<a href="contacts-frontend-sand.vercel.app
+">Clique aqui</a>
