@@ -1,7 +1,10 @@
-# Front-end do projeto Contacts
+# Contacts
 
-Este repositório contém o front-end do projeto Contacts, que utiliza as seguintes tecnologias:
+## Sobre o Projeto
+O projeto Contacts é uma iniciativa full stack desenvolvida para atender às necessidades dos usuários que desejam gerenciar seus contatos de maneira eficiente. Com uma interface intuitiva e fácil de usar, o Contacts oferece uma maneira rápida e conveniente de registrar e gerenciar informações de contato, permitindo que os usuários mantenham suas redes atualizadas e organizadas.
 
+## Tecnologias Utilizadas
+O projeto utiliza as seguintes tecnologias:
 - Vite
 - React
 - TypeScript
@@ -14,15 +17,24 @@ Este repositório contém o front-end do projeto Contacts, que utiliza as seguin
 - React Icons
 - React Router-dom
 
-O objetivo deste projeto é fornecer uma interface intuitiva e fácil de usar para a gestão de clientes e seus contatos, utilizando uma abordagem moderna de desenvolvimento web.
+## Funcionalidades e Abordagem de Desenvolvimento
+O Contacts foi desenvolvido com uma abordagem modular, com componentes React reutilizáveis e um gerenciamento de estado centralizado utilizando a Context API. As validações de formulário são feitas com a biblioteca Yup.
 
-O projeto foi desenvolvido utilizando uma abordagem modular, com componentes React reutilizáveis e um gerenciamento de estado centralizado utilizando a Context API. As validações de formulário são feitas com a biblioteca Yup e os dados são armazenados localmente utilizando o Local Storage do navegador.
+## Funcionalidades Futuras
+Algumas funcionalidades planejadas para adicionar ao projeto no futuro são:
+
+- Criar uma home page para melhorar a experiência do usuário e facilitar a navegação;
+- Implementar rotas para login e registro do cliente com email e senha, permitindo que os usuários visualizem apenas seus próprios contatos.
+
+A implementação dessas funcionalidades ainda não tem uma data definida, mas serão adicionadas ao projeto assim que possível.
 
 ## Instalação
-Para utilizar o projeto localmente, é necessário clonar o repositório e instalar as dependências com o comando [yarn]. Em seguida, basta rodar o servidor local com [yarn dev].
+Para utilizar o projeto localmente, é necessário clonar o repositório e instalar as dependências com o comando `yarn`. Em seguida, basta rodar o servidor local com o comando `yarn dev`.
 
+## Hospedagem
+O projeto está hospedado no seguinte link:
+<a href="https://contacts-frontend-sand.vercel.app/">https://contacts-frontend-sand.vercel.app/</a>
 
-## Hospedagem:
-
-<a href="contacts-frontend-sand.vercel.app
-">Clique aqui</a>
+## Repositório do Backend
+O repositório do backend pode ser encontrado no seguinte link:
+<a href="https://github.com/AndressaLSMenezes/contacts_backend">https://github.com/AndressaLSMenezes/contacts_backend</a>
